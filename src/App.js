@@ -2,7 +2,7 @@ import { ThemeProvider } from "styled-components";
 import "./App.css";
 import GlobalStyles from "./globalStyles";
 import { LightTheme } from "./components/Themes";
-import { Routes, Route, Link, useLocation } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 
 //Components
 import Main from "./components/Main";

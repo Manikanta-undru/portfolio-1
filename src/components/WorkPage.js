@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import styled, { keyframes, ThemeProvider } from "styled-components";
+import styled, { ThemeProvider } from "styled-components";
 import LogoComponent from "../subComponents/LogoComponent";
 import PowerButton from "../subComponents/PowerButton";
 import SocialIcons from "../subComponents/SocialIcons";
