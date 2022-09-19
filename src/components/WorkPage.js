@@ -102,7 +102,7 @@ const WorkPage = () => {
         }}
       >
         <BigTitle top='10%' right='20%' text='WORK' />
-        <SocialIcons theme='dark' />
+        <SocialIcons theme='light' />
         <PowerButton />
         <LogoComponent />
         <Rotate ref={yinyang}>

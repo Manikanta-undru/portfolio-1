@@ -39,7 +39,7 @@ const Contact = styled.a`
   z-index: 1;
   @media (max-width: 700px) {
     right: 1rem;
-    color: ${(props) => props.theme.body};
+    /* color: ${(props) => props.theme.body}; */
   }
 `;
 
@@ -168,7 +168,7 @@ const Main = () => {
         <SoundBar />
         <PowerButton></PowerButton>
 
-        <SocialIcons theme={click ? "dark" : "light"} />
+        <SocialIcons theme={click ? "light" : "dark"} click={click} />
         <Center $click={click}>
           <YinYang onClick={() => setClick(!click)}></YinYang>
           <span hidden={click}>click here</span>

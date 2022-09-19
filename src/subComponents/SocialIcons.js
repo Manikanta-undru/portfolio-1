@@ -18,14 +18,21 @@ const Icons = styled.div`
   .socialIcon > :first-child {
     width: 25px;
     height: 25px;
+    fill: ${(props) =>
+      props.theme === "light" ? DarkTheme.text : DarkTheme.body};
   }
   @media (max-width: 700px) {
     left: 1rem;
     .socialIcon > :first-child {
       width: 20px;
       height: 20px;
-      fill: ${(props) =>
-        props.theme === "light" ? DarkTheme.body : DarkTheme.text};
+      fill: ${(props) => {
+        if (props.$click) {
+          return props.theme === "light" ? DarkTheme.body : DarkTheme.text;
+        } else {
+          return props.theme === "light" ? DarkTheme.text : DarkTheme.body;
+        }
+      }};
     }
   }
 `;
@@ -35,17 +42,22 @@ const Line = styled(motion.span)`
   height: 8rem;
   z-index: 3;
   background-color: ${(props) =>
-    props.theme === "light" ? DarkTheme.body : DarkTheme.text};
+    props.theme === "light" ? DarkTheme.text : DarkTheme.body};
   @media (max-width: 700px) {
     height: 6rem;
-    background-color: ${(props) =>
-      props.theme === "light" ? DarkTheme.body : DarkTheme.text};
+    background-color: ${(props) => {
+      if (props.$click) {
+        return props.theme === "light" ? DarkTheme.body : DarkTheme.text;
+      } else {
+        return props.theme === "light" ? DarkTheme.text : DarkTheme.body;
+      }
+    }};
   }
 `;
 
 const SocialIcons = (props) => {
   return (
-    <Icons theme={props.theme}>
+    <Icons theme={props.theme} $click={props.click}>
       <motion.div
         initial={{
           scale: 0,
@@ -127,6 +139,7 @@ const SocialIcons = (props) => {
         </Link>
       </motion.div>
       <Line
+        $click={props.click}
         initial={{
           height: 0,
         }}

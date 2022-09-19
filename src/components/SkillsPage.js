@@ -78,7 +78,7 @@ const Description = styled.div`
 const SkillsPage = () => {
   return (
     <ThemeProvider theme={LightTheme}>
-      <SocialIcons theme='light' />
+      <SocialIcons theme='dark' />
       <PowerButton />
       <LogoComponent />
       <SoundBar />

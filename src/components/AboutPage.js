@@ -85,7 +85,7 @@ const AboutPage = () => {
           },
         }}
       >
-        <SocialIcons theme='dark' />
+        <SocialIcons theme='light' />
         <PowerButton />
         <LogoComponent />
         <SoundBar />

@@ -27,7 +27,7 @@ const Box = styled(motion.div)`
       top;
   background-repeat: no-repeat;
   background-size: 100% 2px;
-  border-left: 2px solid ${(props) => props.theme.text};
+  border-left: 2px solid ${(props) => props.theme.body};
   border-right: 2px solid ${(props) => props.theme.text};
 
   @media (max-width: 700px) {
