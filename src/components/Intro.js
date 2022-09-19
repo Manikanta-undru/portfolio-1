@@ -83,12 +83,16 @@ const Text = styled.div`
   flex-direction: column;
   justify-content: space-evenly;
   padding: 2rem;
+  @media (max-width: 700px) {
+    font-size: calc(1.2rem + 1.5vw);
+  }
   & > :last-child {
     color: ${(props) => `rgba(${props.theme.bodyRgba},0.6)`};
     font-size: calc(0.5rem + 1.5vw);
     font-weight: 300;
     @media (max-width: 700px) {
-      font-size: calc(0.5rem + 1vw);
+      font-size: calc(0.8rem + 1.5vw);
+      line-height: 1.4;
     }
   }
 `;
