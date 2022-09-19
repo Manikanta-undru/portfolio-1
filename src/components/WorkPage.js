@@ -48,7 +48,7 @@ const Rotate = styled.span`
   }
 `;
 
-//Framer motion
+//Framer motion animation
 const container = {
   hidden: {
     opacity: 0,
