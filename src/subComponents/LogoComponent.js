@@ -17,7 +17,7 @@ const Logo = styled.h1`
 `;
 
 const LogoComponent = (props) => {
-  return <Logo click={props.click}>Mk</Logo>;
+  return <Logo click={props.click}>Mani</Logo>;
 };
 
 export default LogoComponent;
