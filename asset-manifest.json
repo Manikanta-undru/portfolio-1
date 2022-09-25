@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Portfolio-fun/static/css/main.b2ef4cf9.css",
-    "main.js": "/Portfolio-fun/static/js/main.255ab71a.js",
-    "static/media/u-said-it-v13-1167.mp3": "/Portfolio-fun/static/media/u-said-it-v13-1167.949cee7ea4a6ad9499db.mp3",
-    "static/media/me3.jpg": "/Portfolio-fun/static/media/me3.0313987137d6e4b37755.jpg",
-    "static/media/spaceman.png": "/Portfolio-fun/static/media/spaceman.5ec7fcfa9a803ead726c.png",
-    "index.html": "/Portfolio-fun/index.html",
-    "main.b2ef4cf9.css.map": "/Portfolio-fun/static/css/main.b2ef4cf9.css.map",
-    "main.255ab71a.js.map": "/Portfolio-fun/static/js/main.255ab71a.js.map"
+    "main.css": "/portfolio-1/static/css/main.b2ef4cf9.css",
+    "main.js": "/portfolio-1/static/js/main.3fc355bd.js",
+    "static/media/u-said-it-v13-1167.mp3": "/portfolio-1/static/media/u-said-it-v13-1167.949cee7ea4a6ad9499db.mp3",
+    "static/media/me3.jpg": "/portfolio-1/static/media/me3.0313987137d6e4b37755.jpg",
+    "static/media/spaceman.png": "/portfolio-1/static/media/spaceman.5ec7fcfa9a803ead726c.png",
+    "index.html": "/portfolio-1/index.html",
+    "main.b2ef4cf9.css.map": "/portfolio-1/static/css/main.b2ef4cf9.css.map",
+    "main.3fc355bd.js.map": "/portfolio-1/static/js/main.3fc355bd.js.map"
   },
   "entrypoints": [
     "static/css/main.b2ef4cf9.css",
-    "static/js/main.255ab71a.js"
+    "static/js/main.3fc355bd.js"
   ]
 }
