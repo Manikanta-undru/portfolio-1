@@ -100,10 +100,10 @@ const Card = (props) => {
         })}
       </Tags>
       <Footer>
-        <Link to={{ pathname: `${demo}` }} target='_blank'>
+        <Link href={demo} target='_blank'>
           Visit
         </Link>
-        <Git to={{ pathname: `${github}` }} target='_blank'>
+        <Git href={github} target='_blank'>
           <Github width={30} height={30} />
         </Git>
       </Footer>

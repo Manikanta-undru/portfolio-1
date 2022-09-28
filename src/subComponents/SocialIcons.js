@@ -1,9 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { Github, Instagram, Linkedin, Twitter } from "../components/AllSvgs";
 import { DarkTheme } from "../components/Themes";
 import { motion } from "framer-motion";
+const Link = styled.a``;
 const Icons = styled.div`
   display: flex;
   flex-direction: column;
@@ -73,7 +73,7 @@ const SocialIcons = (props) => {
           className='socialIcon'
           style={{ color: "inherit" }}
           target='_blank'
-          to={{ pathname: "https://google.com" }}
+          href='https://github.com/ManiKsi'
         >
           <Github></Github>
         </Link>
@@ -89,12 +89,7 @@ const SocialIcons = (props) => {
         whileHover={{ scale: 1.2 }}
         whileTap={{ scale: 0.9 }}
       >
-        <Link
-          className='socialIcon'
-          style={{ color: "inherit" }}
-          target='_blank'
-          to={{ pathname: "https://google.com" }}
-        >
+        <Link className='socialIcon' style={{ color: "inherit" }}>
           <Twitter></Twitter>
         </Link>
       </motion.div>
@@ -113,7 +108,7 @@ const SocialIcons = (props) => {
           className='socialIcon'
           style={{ color: "inherit" }}
           target='_blank'
-          to={{ pathname: "https://google.com" }}
+          href='https://linkedin.com/in/ManiKsi'
         >
           <Linkedin></Linkedin>
         </Link>
@@ -133,7 +128,7 @@ const SocialIcons = (props) => {
           className='socialIcon'
           style={{ color: "inherit" }}
           target='_blank'
-          to={{ pathname: "https://google.com" }}
+          href='https://instagram.com/mani_ksi_'
         >
           <Instagram></Instagram>
         </Link>
