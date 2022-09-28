@@ -66,7 +66,7 @@ const SocialIcons = (props) => {
           scale: [0, 1, 1.5, 1],
           transition: { type: "spring", duration: 1, delay: 1 },
         }}
-        whileHover={{ scale: 1.1 }}
+        whileHover={{ scale: 1.2 }}
         whileTap={{ scale: 0.9 }}
       >
         <Link
@@ -86,7 +86,7 @@ const SocialIcons = (props) => {
           scale: [0, 1, 1.5, 1],
           transition: { type: "spring", duration: 1, delay: 1.2 },
         }}
-        whileHover={{ scale: 1.1 }}
+        whileHover={{ scale: 1.2 }}
         whileTap={{ scale: 0.9 }}
       >
         <Link
@@ -106,7 +106,7 @@ const SocialIcons = (props) => {
           scale: [0, 1, 1.5, 1],
           transition: { type: "spring", duration: 1, delay: 1.4 },
         }}
-        whileHover={{ scale: 1.1 }}
+        whileHover={{ scale: 1.2 }}
         whileTap={{ scale: 0.9 }}
       >
         <Link
@@ -126,7 +126,7 @@ const SocialIcons = (props) => {
           scale: [0, 1, 1.5, 1],
           transition: { type: "spring", duration: 1, delay: 1.6 },
         }}
-        whileHover={{ scale: 1.1 }}
+        whileHover={{ scale: 1.2 }}
         whileTap={{ scale: 0.9 }}
       >
         <Link

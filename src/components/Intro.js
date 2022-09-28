@@ -107,7 +107,9 @@ const Intro = () => {
         <Text>
           <h1>Hi,</h1>
           <h3>I'm Mani.</h3>
-          <h6>I design and Code simple yet beautiful websites.</h6>
+          <h6>
+            I am a full stack web developer. And I love to create beautiful UIs.
+          </h6>
         </Text>
       </Subbox>
       <Subbox>

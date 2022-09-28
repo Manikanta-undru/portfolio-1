@@ -94,14 +94,16 @@ const AboutPage = () => {
           <img src={astronaut} alt='spaceman' />
         </Spaceman>
         <Box>
-          I'm a front-end developer located in India. I love to create simple
-          yet beautiful websites with great user experience.
+          I'm a full stack web developer located in Hyderabad, Currently working
+          at Deloitte.
           <br /> <br />
-          I'm interested in the whole frontend stack Like trying new things and
-          building great projects. I'm an independent freelancer and blogger. I
-          love to write blogs and read books.
-          <br /> <br />I believe everything is an Art when you put your
-          consciousness in it. You can connect with me via social links.
+          I can work on both front-end and the back-end, I especially love
+          working on the front end to create beautiful user interfaces with
+          smooth transitions.
+          <br /> <br />I consider my biggest strength to be my adaptability. I
+          love traveling solo.
+          <br></br>
+          You can connect with me via social links.
         </Box>
         <BigTitle text='ABOUT' top='10%' left='5%' />
       </Main>

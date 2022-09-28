@@ -1,62 +1,60 @@
 export const Work = [
   {
     id: 1,
-    name: "Agency Landing Page",
+    name: "Primitive Chat app",
     description:
-      "It is build on top of the React JS, with styledComponents and GSAP for smooth scrolling animations.",
-    tags: ["react", "gsap", "styledComponents"],
+      "It is a real time messaging app build on top of the React JS and using Firestore ",
+    tags: ["react", "firebase", "framer-motion"],
 
-    demo: "https://agency-website-eta.vercel.app/",
-    github: "",
+    demo: "https://chat-reactweb.web.app//",
+    github: "https://github.com/ManiKsi/simpleChat",
   },
   {
     id: 2,
-    name: "Job listing website",
+    name: "Inventory and Billing web app",
     description:
-      "A Job listing website build in ReactJS. With searching and filtering functionalities.",
-    tags: ["react", "sass"],
+      "Inventory management and billing app for a start up, I have provided the link to the demo website site.",
+    tags: ["react", "tailwind", "chakra UI", "DynamoDb", "Node and Express"],
 
-    demo: "http://react-job-listing-website.codebucks27.vercel.app/",
-    github: "",
+    demo: "https://crowned-billing.web.app/",
+    github: "https://github.com/ManiKsi/BillingappReact",
   },
   {
     id: 3,
-    name: "Dev.to Clone",
-    description:
-      "A clone of Dev.to build using ReactJS. With realtime fetching of articles from dev.to using API.",
-    tags: ["react", "api", "sass"],
+    name: "Crowned",
+    description: "SPA for a clothing brand start up",
+    tags: ["react", "tailwind"],
 
-    demo: "http://devto-clone-codebucks27.vercel.app/",
+    demo: "https://crowned-india.web.app",
     github: "",
   },
   {
     id: 4,
-    name: "Sidebar Menu",
-    description:
-      "A cool looking sidebar menu build using ReactJS and styledComponents.It has really smooth animations.",
-    tags: ["react", "styledComponents", "react-router"],
+    name: "Portfolio",
+    description: "A Mobile first portfolio with a clean look",
+    tags: ["react", "styledComponents", "framer-motion"],
 
-    demo: "https://react-sidebar.vercel.app/",
-    github: "",
+    demo: "https://maniportfoliopro.web.app/",
+    github: "https://github.com/ManiKsi/portfoliov2",
   },
   {
     id: 5,
-    name: "Todo App(React + Redux)",
+    name: "Asta Chemma",
     description:
-      "A todo app build using Redux-toolkit and framer-motion for smooth animations.",
-    tags: ["react", "redux", "framer-motion"],
+      "A traditional andhra game made with Angular, Work still in progress.",
+    tags: ["Angular", "SASS"],
 
-    demo: "http://react-redux-todo-app-git-main-codebucks27.vercel.app/",
-    github: "",
+    demo: "https://astachemma.web.app/",
+    github: "https://github.com/ManiKsi/Astachemma",
   },
   {
     id: 6,
-    name: "Responsive Navigation Menu",
+    name: "Trading Journal",
     description:
-      "A reponsive navbar menu component in ReactJS with react-router functionalities. Built from scratch.",
-    tags: ["react", "react-router", "css"],
+      "A simple trading journal web app to keep track of trades. still in works",
+    tags: ["Angular", "tailwind"],
 
-    demo: "http://react-responsive-navbar-codebucks27.vercel.app/",
-    github: "",
+    demo: "",
+    github: "https://github.com/ManiKsi/TradeJournal",
   },
 ];

@@ -53,7 +53,7 @@ const Title = styled.h2`
   width: 100%;
   display: flex;
   justify-content: center;
-  font-size: calc(1em + 1vw);
+  font-size: calc(0.8em + 1vw);
   margin-bottom: 1rem;
   & > :first-child {
     margin-right: 1rem;
@@ -63,7 +63,7 @@ const Title = styled.h2`
   }
 `;
 const Description = styled.div`
-  font-size: calc(0.6em + 1vw);
+  font-size: calc(0.3em + 1vw);
   padding: 0.5rem 0;
   strong {
     text-transform: uppercase;
@@ -103,45 +103,52 @@ const SkillsPage = () => {
         <ParticleComponent theme='light' />
         <Box>
           <Title>
-            <Design width={40} height={40} /> Designer
+            <Design width={40} height={40} /> Front-End
           </Title>
           <Description>
-            I love to create design which speaks, Keep it clean, minimal and
-            simple.
+            I can design and code beautiful UIs using wide range of frameworks
+            and libraries.
           </Description>
           <Description>
-            <strong>I like to Design</strong>
+            <strong>Skillset</strong>
             <ul>
-              <li>Web Design</li>
-              <li>Mobile Apps</li>
+              <li>React and Redux</li>
+              <li>Angular</li>
+              <li>HTML&CSS and Javascript</li>
+              <li>Bootstrap, Tailwind CSS</li>
+              <li>Webpack, SASS, Styled Components</li>
             </ul>
           </Description>
           <Description>
             <strong>Tools</strong>
             <ul>
-              <li>Figma</li>
+              <li>Git</li>
+              <li>Visual Studio Code</li>
               <li>Adobe XD</li>
             </ul>
           </Description>
         </Box>
         <Box>
           <Title>
-            <Develope width={40} height={40} /> Developer
+            <Develope width={40} height={40} /> Back-End
           </Title>
           <Description>
-            I value business or brand for which i'm creating, thus i enjoy
-            bringing new ideas to life.
+            I can develope and deploy Node and Express apps and APIs.
           </Description>
           <Description>
             <strong>Skills</strong>
-            <p>
-              {" "}
-              Html,Css,Js,React,Redux,Sass, Bootstrap,Tailwind,Firebase etc
-            </p>
+            <ul>
+              <li>Node Js, Express Js</li>
+              <li>Working knowledge of MongoDB, DynamoDb and MySql.</li>
+              <li>Previously worked with PHP.</li>
+              <li>
+                Have experience in Deploying apps to AWS,Heroku and Firebase.
+              </li>
+            </ul>
           </Description>
           <Description>
             <strong>Tools</strong>
-            <p>VS Code, Github etc..</p>
+            <p>AWS CLI,Heroku CLI and Firebase CLI</p>
           </Description>
         </Box>
         <BigTitle text='SKILLS' top='80%' right='20%' color='light' />
